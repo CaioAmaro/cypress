@@ -1,4 +1,6 @@
 Cypress.Commands.add('login', (email, senha) => { 
+    cy.visit('https://adopet-frontend-cypress.vercel.app');
+    cy.get('[data-test="login-button"]').click()
     cy.get('[data-test="input-loginEmail"]').type(email);
     cy.get('[data-test="input-loginPassword"]').type(senha);
     cy.get('[data-test="submit-button"]').click();
