@@ -4,21 +4,6 @@
 
 Este repositório contém a suíte de testes de ponta a ponta (E2E) , desenvolvida com o framework [Cypress](https://www.cypress.io/). O objetivo é garantir a qualidade, estabilidade e a correta funcionalidade da aplicação através da automação de fluxos de usuário.
 
----
-
-## 📖 Índice
-
--   [Sobre o Projeto](#-sobre-o-projeto)
--   [Tecnologias Utilizadas](#-tecnologias-utilizadas)
--   [Pré-requisitos](#-pré-requisitos)
--   [Como Configurar o Ambiente](#-como-configurar-o-ambiente)
--   [Executando os Testes](#-executando-os-testes)
--   [Estrutura de Pastas](#-estrutura-de-pastas)
--   [Scripts Disponíveis](#-scripts-disponíveis)
--   [Como Contribuir](#-como-contribuir)
-
----
-
 ## 🌟 Sobre o Projeto
 
 Este projeto de automação visa cobrir os cenários mais críticos da aplicação, incluindo:
@@ -44,47 +29,3 @@ Antes de iniciar, certifique-se de que possui as seguintes ferramentas instalada
 -   [Node.js](https://nodejs.org/en/) (versão 18.x ou superior recomendada)
 -   [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 -   [Git](https://git-scm.com/)
-
-## 🚀 Como Configurar o Ambiente
-
-Siga os passos abaixo para clonar e configurar o projeto localmente.
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
-    ```
-
-2.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
-    *ou, se preferir usar Yarn:*
-    ```bash
-    yarn install
-    ```
-
-3.  **(Opcional) Configure as variáveis de ambiente:**
-    Se o projeto necessitar de variáveis de ambiente (como URLs, credenciais de teste, etc.), crie um arquivo `cypress.env.json` na raiz do projeto. Você pode usar o arquivo de exemplo como base:
-    ```bash
-    cp cypress.env.example.json cypress.env.json
-    ```
-    Depois, edite o arquivo `cypress.env.json` com os valores corretos para o seu ambiente.
-    ```json
-    {
-      "baseUrl": "http://localhost:3000",
-      "user_email": "teste@exemplo.com",
-      "user_password": "senha_super_secreta"
-    }
-    ```
-
-## ▶️ Executando os Testes
-
-O Cypress permite executar os testes de duas formas principais:
-
-### 1. Modo Interativo (com Interface Gráfica)
-
-Este modo é ideal para desenvolver e depurar os testes. Ele abre o **Test Runner**, uma interface visual que permite acompanhar a execução passo a passo.
-
-```bash
-npm run cypress:open
