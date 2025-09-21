@@ -2,7 +2,7 @@
 
 ![Cypress.io](https://d2d83w1237198g.cloudfront.net/spec-dashboard-pro-v2/dist/1.0.0-prod/img/logo-dark.1e1b12b.png)
 
-Este repositório contém a suíte de testes de ponta a ponta (E2E) para o projeto **[Nome do Seu Projeto Aqui]**, desenvolvida com o framework [Cypress](https://www.cypress.io/). O objetivo é garantir a qualidade, estabilidade e a correta funcionalidade da aplicação através da automação de fluxos de usuário.
+Este repositório contém a suíte de testes de ponta a ponta (E2E) , desenvolvida com o framework [Cypress](https://www.cypress.io/). O objetivo é garantir a qualidade, estabilidade e a correta funcionalidade da aplicação através da automação de fluxos de usuário.
 
 ---
 
